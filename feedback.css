@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color:hsl(39, 98%, 74%); */
+}
+body    {
+  background: linear-gradient(rgba(0, 0, 0, 0.650),rgba(0, 0, 0, 0.650)), url(q..jpg) no-repeat;
+  background-size: cover;
+}
+.feed-box{
+top: 20%;
+left: 35%;
+position: absolute;
+transform: translate(-50%,-50);
+width: 350px;
+}
+.feed-box h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+.feed-box input{
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px sold #030505;
+}
+.feed-box input:focus{
+    border: 1px solid black;
+}
+
+.feed-box textarea{
+    width: 100%;
+    height: 150px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #101415;
+}
+.feed-box textarea:focus{
+    border:0px;
+    padding: 10px 30px;
+    background: #0e1415;
+}
+.feed-box button{
+    border: 0;
+    padding: 10px 30px;
+    background: #78ad5b;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+}
+.feed-box button:hover{
+    background: #080808;
+    color: white;
+}
+nav {
+  width: 100%;
+  height: 15vh;
+  background: rgba(8, 8, 8, 0.748);
+  color:rgb(255, 149, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+nav .logo {
+  width: 25%;
+  text-align: center;
+  /*background: red;*/
+}
+
+nav .menu {
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+nav .menu a {
+  width: 30%;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+}
+nav .menu a:hover{
+  background: none;
+  color: orange;
+}
+
+nav .menu a:first-child {
+  color:white;
+}
+nav .menu a:first-child:hover {
+  background: none;
+  color:orange;
+}

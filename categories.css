@@ -1,0 +1,64 @@
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+body {
+    background:white;
+ font-family: 'Times New Roman', Times, serif;
+}
+.main{
+
+ margin: 2%;
+
+}
+
+.card{
+    background-color:rgb(255, 149, 0);
+     width: 16%;
+     height: 100%;
+     display:inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     margin:4%;
+     margin-bottom: 4px;
+    }
+ .card:hover{
+      box-shadow: 3.9px 7.8px 7.8px rgba(7, 7, 7, 0.635);
+    }
+
+.image img{
+    height: 190px;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  
+
+ 
+ }
+
+.title{
+  text-align:center;
+  padding: 0px;
+  height:26px ;
+  
+ }
+
+h1{
+  font-size: 15px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 12px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 4px;
+}

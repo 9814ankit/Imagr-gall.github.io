@@ -1,0 +1,26 @@
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+    background-image: url(76.jpg);
+ font-family: arial;
+}
+
+.click-zoom input[type=checkbox] {
+  display: none
+}
+
+.click-zoom img {
+  margin: 100px;
+  transition: transform 0.2s ease;
+  cursor: zoom-in
+}
+
+.click-zoom input[type=checkbox]:checked~img {
+  transform: scale(2);
+  cursor: zoom-out
+}
